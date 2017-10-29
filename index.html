@@ -2,46 +2,90 @@
 <html>
   <head>
     <title>Portfolio | Josie Kelley</title>
+    <meta name="viewpoint" content="width=device-width, inital-scale=1">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-purple.min.css" />
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
   </head>
 
   <body>
 
-    <header>
+    <header class="mdl-layout_header mdl-layout_header--transparent">
       <h1>Josie Kelley</h1>
       <p class="slogan">Fiery and Fabulous Full Stack Developer</p>
     </header>
-    <main>
 
-      <div class="project featured-project">
-        <img src="http://lorempixel.com/350/260/abstract/placeholder-1" alt="project screenshot"></img>
-        <h2>Featured Project Name</h2>
-        <p>Project Descriptive Text</p>
+    <main class="mdl-layout_content mdl-grid">
+
+      <div class="project featured-project" mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp>
+        <div class="mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet">
+          <img src="http://lorempixel.com/350/260/abstract/placeholder-1" alt="project screenshot" ></img>
+        </div>
+        <div class="mdl-cell mdl-cell--7-col">
+          <h2 class="mdl-cell__title-text">Featured Project Name</h2>
+          <p class="project-description mdl-cell__supporting-text">Project Descriptive Text</p>
+        </div>
       </div>
 
-      <div class="project">
-        <img src="http://lorempixel.com/350/260/abstract/placeholder-1" alt="project screenshot"></img>
-        <h2>Project Name</h2>
-        <p>Project Descriptive Text</p>
+      <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+        <div>
+          <img src="http://lorempixel.com/350/260/abstract/placeholder-1" alt="project screenshot"></img>
+        </div>
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">Project Name</h2>
+        </div>
+        <div class="mdl-card__supporting-text">
+          <p>Project Descriptive Text</p>
+        </div>
       </div>
 
-      <div class="project">
-        <img src="http://lorempixel.com/350/260/abstract/placeholder-1" alt="project screenshot"></img>
-        <h2>Project Name</h2>
-        <p>Project Descriptive Text</p>
+      <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+        <div>
+          <img src="http://lorempixel.com/350/260/abstract/placeholder-1" alt="project screenshot"></img>
+        </div>
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">Project Name</h2>
+        </div>
+        <div class="mdl-card__supporting-text">
+          <p>Project Descriptive Text</p>
+        </div>
       </div>
 
-      <div class="project">
-        <img src="http://lorempixel.com/350/260/abstract/placeholder-1" alt="project screenshot"></img>
-        <h2>Project Name</h2>
-        <p>Project Descriptive Text</p>
+      <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+        <div>
+          <img src="http://lorempixel.com/350/260/abstract/placeholder-1" alt="project screenshot"></img>
+        </div>
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">Project Name</h2>
+        </div>
+        <div class="mdl-card__supporting-text">
+          <p>Project Descriptive Text</p>
+        </div>
       </div>
     </main>
-    <footer>
-      <ul>
-        <li><a href="https://linkedin.com/in/jcakelley">Linkedin</a></li>
-        <li><a href="https://github.com/jothetraveler/Porfolio">GitHub</a></li>
-        <li><a href="https://twitter.com/josiecakelley">Twitter</a></li>
-        <li><a href="mailto:jca_kelley@gmail.com">Email</a></li>
+    <footer class="mdl-mini-footer">
+      <ul class="mdl-mini-footer__link-list">
+        <li>
+          <a href="https://linkedin.com/in/jcakelley">
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/jothetraveler/Porfolio">
+            <i class="fa fa-github-square" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/josiecakelley">
+            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:jca_kelley@gmail.com">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+          </a>
+        </li>
       </ul>
 
     </footer>
